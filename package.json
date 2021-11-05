@@ -1,0 +1,16 @@
+{
+  "name": "programuoki",
+  "version": "1.0.0",
+  "description": "Išmok programuoti lietuviškai",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --no-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:eject-theme": "vuepress eject-hope docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.26",
+    "vuepress-theme-hope": "^0.0.15"
+  }
+}
